@@ -28,7 +28,7 @@ void DrawMain()
         Paint(x+5, 0, kColorDarkBlue, kColorBlue);
     }
     
-    FillCircle(50, 50, 100, kColorWhite);
+    FillCircle(0, 0, 100, kColorWhite);
 
     DrawText("Hello, world!!", -12*14/2, 44, kColorWhite);
     Sleep(0.5f);
